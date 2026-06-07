@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12F68680E3AD765428CC5CBD /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8A3D076625CE477D72B5F /* AppLanguage.swift */; };
+		46957181415A20A1CE18030B /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6933CBD55EE09F1F6AEF39 /* WindowAccessor.swift */; };
+		D94623831503CEE8F8CE6C4E /* SharePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3086519C03D688BC794EB3F8 /* SharePopoverView.swift */; };
+		65F59398442E236567C50044 /* SidebarAppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19423D482C0CFF3B950A0C51 /* SidebarAppRow.swift */; };
+		8BDA262EB894FF011D73201A /* DeletionSheetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D4AD74B897D1C548BD7CE9 /* DeletionSheetViews.swift */; };
 		30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5064E2FD519B200967676 /* EzTrashApp.swift */; };
 		30A506512FD519B20096767B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506502FD519B20096767A /* AppModel.swift */; };
 		30A506512FD519B200967676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506502FD519B200967676 /* ContentView.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2A8A3D076625CE477D72B5F /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		3B6933CBD55EE09F1F6AEF39 /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAccessor.swift; sourceTree = "<group>"; };
+		3086519C03D688BC794EB3F8 /* SharePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePopoverView.swift; sourceTree = "<group>"; };
+		19423D482C0CFF3B950A0C51 /* SidebarAppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarAppRow.swift; sourceTree = "<group>"; };
+		66D4AD74B897D1C548BD7CE9 /* DeletionSheetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletionSheetViews.swift; sourceTree = "<group>"; };
 		30A5064B2FD519B200967676 /* EzTrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzTrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A5064E2FD519B200967676 /* EzTrashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashApp.swift; sourceTree = "<group>"; };
 		30A506502FD519B20096767A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
@@ -97,6 +107,11 @@
 		30A5064D2FD519B200967676 /* EzTrash */ = {
 			isa = PBXGroup;
 			children = (
+				F2A8A3D076625CE477D72B5F /* AppLanguage.swift */,
+				3B6933CBD55EE09F1F6AEF39 /* WindowAccessor.swift */,
+				3086519C03D688BC794EB3F8 /* SharePopoverView.swift */,
+				19423D482C0CFF3B950A0C51 /* SidebarAppRow.swift */,
+				66D4AD74B897D1C548BD7CE9 /* DeletionSheetViews.swift */,
 				30A5064E2FD519B200967676 /* EzTrashApp.swift */,
 				30A506502FD519B20096767A /* AppModel.swift */,
 				30A506502FD519B200967676 /* ContentView.swift */,
@@ -262,6 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F68680E3AD765428CC5CBD /* AppLanguage.swift in Sources */,
+				46957181415A20A1CE18030B /* WindowAccessor.swift in Sources */,
+				D94623831503CEE8F8CE6C4E /* SharePopoverView.swift in Sources */,
+				65F59398442E236567C50044 /* SidebarAppRow.swift in Sources */,
+				8BDA262EB894FF011D73201A /* DeletionSheetViews.swift in Sources */,
 				30A506512FD519B20096767B /* AppModel.swift in Sources */,
 				30A506512FD519B200967676 /* ContentView.swift in Sources */,
 				30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */,

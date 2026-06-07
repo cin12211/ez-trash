@@ -8,6 +8,13 @@
 import Foundation
 import Cocoa
 import Combine
+import CoreServices
+
+enum DeletionPhase {
+    case confirmation
+    case deleting
+    case completed
+}
 
 struct RelatedFile: Identifiable, Hashable, Equatable {
     let id: URL
@@ -29,12 +36,25 @@ struct AppInfo: Identifiable, Hashable, Equatable {
     var size: Int64?
     var relatedFiles: [RelatedFile] = []
     var isOwnedByRoot: Bool = false
+    let lastOpenedDate: Date?
     
     var sizeString: String {
         if let size = size {
             return ByteCountFormatter.string(fromByteCount: size, countStyle: .file)
         }
         return "Calculating..."
+    }
+    
+    func lastOpenedString(language: AppLanguage) -> String {
+        guard let date = lastOpenedDate else {
+            return language == .english ? "Never" : "Chưa bao giờ"
+        }
+        
+        let formatter = RelativeDateTimeFormatter()
+        formatter.unitsStyle = .full
+        formatter.locale = Locale(identifier: language.rawValue)
+        
+        return formatter.localizedString(for: date, relativeTo: Date())
     }
     
     // Hashable conformance
@@ -106,7 +126,17 @@ class AppScanner: ObservableObject {
                     }
                 }
                 
-                let app = AppInfo(id: appURL, name: name, bundleIdentifier: bundleID, icon: icon, size: nil, relatedFiles: [], isOwnedByRoot: isOwnedByRoot)
+                // Get Last Opened Date
+                var lastOpenedDate: Date? = nil
+                if let item = MDItemCreate(kCFAllocatorDefault, appURL.path as CFString),
+                   let date = MDItemCopyAttribute(item, kMDItemLastUsedDate) as? Date {
+                    lastOpenedDate = date
+                } else {
+                    let values = try? appURL.resourceValues(forKeys: [.contentAccessDateKey])
+                    lastOpenedDate = values?.contentAccessDate
+                }
+                
+                let app = AppInfo(id: appURL, name: name, bundleIdentifier: bundleID, icon: icon, size: nil, relatedFiles: [], isOwnedByRoot: isOwnedByRoot, lastOpenedDate: lastOpenedDate)
                 scannedApps.append(app)
                 
                 let progress = Double(index + 1) / Double(totalApps)
