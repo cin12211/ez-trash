@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5064E2FD519B200967676 /* EzTrashApp.swift */; };
+		30A506512FD519B200967676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506502FD519B200967676 /* ContentView.swift */; };
+		30A506532FD519B300967676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A506522FD519B300967676 /* Assets.xcassets */; };
+		30A506562FD519B300967676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A506552FD519B300967676 /* Preview Assets.xcassets */; };
+		30A506612FD519B300967676 /* EzTrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506602FD519B300967676 /* EzTrashTests.swift */; };
+		30A5066B2FD519B300967676 /* EzTrashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5066A2FD519B300967676 /* EzTrashUITests.swift */; };
+		30A5066D2FD519B300967676 /* EzTrashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5066C2FD519B300967676 /* EzTrashUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A5065D2FD519B300967676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A506432FD519B200967676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A5064A2FD519B200967676;
+			remoteInfo = EzTrash;
+		};
+		30A506672FD519B300967676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A506432FD519B200967676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A5064A2FD519B200967676;
+			remoteInfo = EzTrash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A5064B2FD519B200967676 /* EzTrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzTrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A5064E2FD519B200967676 /* EzTrashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashApp.swift; sourceTree = "<group>"; };
+		30A506502FD519B200967676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30A506522FD519B300967676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A506552FD519B300967676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30A506572FD519B300967676 /* EzTrash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EzTrash.entitlements; sourceTree = "<group>"; };
+		30A5065C2FD519B300967676 /* EzTrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzTrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A506602FD519B300967676 /* EzTrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashTests.swift; sourceTree = "<group>"; };
+		30A506662FD519B300967676 /* EzTrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzTrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A5066A2FD519B300967676 /* EzTrashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashUITests.swift; sourceTree = "<group>"; };
+		30A5066C2FD519B300967676 /* EzTrashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A506482FD519B200967676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A506592FD519B300967676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A506632FD519B300967676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A506422FD519B200967676 = {
+			isa = PBXGroup;
+			children = (
+				30A5064D2FD519B200967676 /* EzTrash */,
+				30A5065F2FD519B300967676 /* EzTrashTests */,
+				30A506692FD519B300967676 /* EzTrashUITests */,
+				30A5064C2FD519B200967676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A5064C2FD519B200967676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A5064B2FD519B200967676 /* EzTrash.app */,
+				30A5065C2FD519B300967676 /* EzTrashTests.xctest */,
+				30A506662FD519B300967676 /* EzTrashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A5064D2FD519B200967676 /* EzTrash */ = {
+			isa = PBXGroup;
+			children = (
+				30A5064E2FD519B200967676 /* EzTrashApp.swift */,
+				30A506502FD519B200967676 /* ContentView.swift */,
+				30A506522FD519B300967676 /* Assets.xcassets */,
+				30A506572FD519B300967676 /* EzTrash.entitlements */,
+				30A506542FD519B300967676 /* Preview Content */,
+			);
+			path = EzTrash;
+			sourceTree = "<group>";
+		};
+		30A506542FD519B300967676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30A506552FD519B300967676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30A5065F2FD519B300967676 /* EzTrashTests */ = {
+			isa = PBXGroup;
+			children = (
+				30A506602FD519B300967676 /* EzTrashTests.swift */,
+			);
+			path = EzTrashTests;
+			sourceTree = "<group>";
+		};
+		30A506692FD519B300967676 /* EzTrashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30A5066A2FD519B300967676 /* EzTrashUITests.swift */,
+				30A5066C2FD519B300967676 /* EzTrashUITestsLaunchTests.swift */,
+			);
+			path = EzTrashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A5064A2FD519B200967676 /* EzTrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A506702FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrash" */;
+			buildPhases = (
+				30A506472FD519B200967676 /* Sources */,
+				30A506482FD519B200967676 /* Frameworks */,
+				30A506492FD519B200967676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzTrash;
+			productName = EzTrash;
+			productReference = 30A5064B2FD519B200967676 /* EzTrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A5065B2FD519B300967676 /* EzTrashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A506732FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrashTests" */;
+			buildPhases = (
+				30A506582FD519B300967676 /* Sources */,
+				30A506592FD519B300967676 /* Frameworks */,
+				30A5065A2FD519B300967676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A5065E2FD519B300967676 /* PBXTargetDependency */,
+			);
+			name = EzTrashTests;
+			productName = EzTrashTests;
+			productReference = 30A5065C2FD519B300967676 /* EzTrashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A506652FD519B300967676 /* EzTrashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A506762FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrashUITests" */;
+			buildPhases = (
+				30A506622FD519B300967676 /* Sources */,
+				30A506632FD519B300967676 /* Frameworks */,
+				30A506642FD519B300967676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A506682FD519B300967676 /* PBXTargetDependency */,
+			);
+			name = EzTrashUITests;
+			productName = EzTrashUITests;
+			productReference = 30A506662FD519B300967676 /* EzTrashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A506432FD519B200967676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					30A5064A2FD519B200967676 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					30A5065B2FD519B300967676 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 30A5064A2FD519B200967676;
+					};
+					30A506652FD519B300967676 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 30A5064A2FD519B200967676;
+					};
+				};
+			};
+			buildConfigurationList = 30A506462FD519B200967676 /* Build configuration list for PBXProject "EzTrash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A506422FD519B200967676;
+			productRefGroup = 30A5064C2FD519B200967676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A5064A2FD519B200967676 /* EzTrash */,
+				30A5065B2FD519B300967676 /* EzTrashTests */,
+				30A506652FD519B300967676 /* EzTrashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A506492FD519B200967676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A506562FD519B300967676 /* Preview Assets.xcassets in Resources */,
+				30A506532FD519B300967676 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A5065A2FD519B300967676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A506642FD519B300967676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A506472FD519B200967676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A506512FD519B200967676 /* ContentView.swift in Sources */,
+				30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A506582FD519B300967676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A506612FD519B300967676 /* EzTrashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A506622FD519B300967676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A5066D2FD519B300967676 /* EzTrashUITestsLaunchTests.swift in Sources */,
+				30A5066B2FD519B300967676 /* EzTrashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A5065E2FD519B300967676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A5064A2FD519B200967676 /* EzTrash */;
+			targetProxy = 30A5065D2FD519B300967676 /* PBXContainerItemProxy */;
+		};
+		30A506682FD519B300967676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A5064A2FD519B200967676 /* EzTrash */;
+			targetProxy = 30A506672FD519B300967676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30A5066E2FD519B300967676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30A5066F2FD519B300967676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		30A506712FD519B300967676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EzTrash/EzTrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzTrash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30A506722FD519B300967676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EzTrash/EzTrash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzTrash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30A506742FD519B300967676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzTrash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzTrash";
+			};
+			name = Debug;
+		};
+		30A506752FD519B300967676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzTrash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzTrash";
+			};
+			name = Release;
+		};
+		30A506772FD519B300967676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EzTrash;
+			};
+			name = Debug;
+		};
+		30A506782FD519B300967676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orcaq.EzTrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EzTrash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A506462FD519B200967676 /* Build configuration list for PBXProject "EzTrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A5066E2FD519B300967676 /* Debug */,
+				30A5066F2FD519B300967676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A506702FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A506712FD519B300967676 /* Debug */,
+				30A506722FD519B300967676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A506732FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A506742FD519B300967676 /* Debug */,
+				30A506752FD519B300967676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A506762FD519B300967676 /* Build configuration list for PBXNativeTarget "EzTrashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A506772FD519B300967676 /* Debug */,
+				30A506782FD519B300967676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30A506432FD519B200967676 /* Project object */;
+}
