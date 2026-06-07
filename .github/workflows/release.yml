@@ -1,0 +1,43 @@
+name: Build and Release EzTrash
+
+on:
+  push:
+    tags:
+      - 'v*'
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build macOS App
+    runs-on: macos-14
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: |
+          sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+          xcodebuild -version
+
+      - name: Build App
+        run: |
+          xcodebuild -scheme EzTrash -project EzTrash.xcodeproj -configuration Release -derivedDataPath Build/DerivedData -destination 'platform=macOS' clean build
+
+      - name: Compress App Bundle
+        run: |
+          cd Build/DerivedData/Build/Products/Release
+          zip -r ../../../../EzTrash.zip EzTrash.app
+          cd -
+
+      - name: Create Release and Upload Artifacts
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
+        with:
+          files: EzTrash.zip
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

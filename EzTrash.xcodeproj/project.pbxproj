@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5064E2FD519B200967676 /* EzTrashApp.swift */; };
+		30A506512FD519B20096767B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506502FD519B20096767A /* AppModel.swift */; };
 		30A506512FD519B200967676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A506502FD519B200967676 /* ContentView.swift */; };
 		30A506532FD519B300967676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A506522FD519B300967676 /* Assets.xcassets */; };
 		30A506562FD519B300967676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A506552FD519B300967676 /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		30A5064B2FD519B200967676 /* EzTrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzTrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A5064E2FD519B200967676 /* EzTrashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzTrashApp.swift; sourceTree = "<group>"; };
+		30A506502FD519B20096767A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		30A506502FD519B200967676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30A506522FD519B300967676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A506552FD519B300967676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				30A5064E2FD519B200967676 /* EzTrashApp.swift */,
+				30A506502FD519B20096767A /* AppModel.swift */,
 				30A506502FD519B200967676 /* ContentView.swift */,
 				30A506522FD519B300967676 /* Assets.xcassets */,
 				30A506572FD519B300967676 /* EzTrash.entitlements */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A506512FD519B20096767B /* AppModel.swift in Sources */,
 				30A506512FD519B200967676 /* ContentView.swift in Sources */,
 				30A5064F2FD519B200967676 /* EzTrashApp.swift in Sources */,
 			);
